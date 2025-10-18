@@ -66,12 +66,6 @@ ol {
   gap: 30px;
 }
 
-/* .result {
-  display: flex;
-  flex-direction: column;
-  gap: 16px;
-} */
-
 .content__details {
   display: flex;
   flex-direction: column;
@@ -99,18 +93,13 @@ ol {
 }
 
 .result__video {
-  /* width: 711px;
-  height: 386px; */
   object-fit: contain;
   width: 100%;
-  /* margin-bottom: 16px; */
 }
 
 .result__video-container {
   width: 711px;
   height: 405px;
-  /* margin-bottom: 16px; */
-  /* object-fit: contain; */
   position: relative;
 }
 
@@ -120,10 +109,6 @@ ol {
   gap: 30px;
 }
 
-/* .content__list:last-of-type {
-  margin-bottom: 30px;
-} */
-
 .content__list-container .content__list:last-of-type {
   gap: 30px;
   margin-bottom: 30px;
@@ -132,7 +117,6 @@ ol {
 .content__video-card {
   display: flex;
   flex-direction: row;
-  /* justify-content: start; */
   align-items: start;
 }
 
@@ -164,8 +148,6 @@ ol {
   font-style: Regular;
   font-size: 18px;
   line-height: 100%;
-  /* display: flex; */
-  /* align-self: flex-end; */
 }
 
 .visually-hidden {
@@ -201,9 +183,6 @@ ol {
 
 .search-form__textfield::placeholder {
   color: rgb (255 255 255, 0.7);
-}
-
-.search-form__label {
 }
 
 .title {
@@ -285,16 +264,13 @@ ol {
   opacity: 1;
 }
 
-/* .search-form__checkbox:hover  */
 .search-form__label-text:hover {
   text-decoration: underline;
 }
 
 .button {
   border: 1px solid #ffffff;
-  /* background-color: rgba(255 255 255, 0); */
   background-color: transparent;
-  /* opacity: 1; */
   color: #ffffff;
   font-weight: 700;
   font-size: 18px;
@@ -304,8 +280,6 @@ ol {
 .search-form__submit-button {
   width: 194px;
   height: 34px;
-  /* display:flex; */
-  /* align-items: end; */
   align-self: flex-end;
 }
 
@@ -321,11 +295,6 @@ ol {
   outline: 1px solid #ffffff;
   margin: 1px 1px;
 }
-
-/* .content__list:active + */
-/* .content__list-item:active .content__card-link_current {
-  background-color: #545050;
-} */
 
 .content__video-card-description-container {
   height: 100%;
@@ -348,10 +317,6 @@ ol {
 .content__card-link {
   display: block;
 }
-
-/* .content__list-item {
-  background-color: #545050;
-} */
 
 .content__list-item:hover .content__video-card-description-container {
   text-decoration: underline;
